@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "806234842697",
+    "firebase_url": "https://wehedev-4e571-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wehedev-4e571",
+    "storage_bucket": "wehedev-4e571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806234842697:android:830ac736663aacf0d0c198",
+        "android_client_info": {
+          "package_name": "com.example.wehedev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806234842697-sfqlso55ll7d1cekr42t2k3aj0osqndt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv8_18bMlw9EpHsT4IopEw_J3bPoN3lqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806234842697-sfqlso55ll7d1cekr42t2k3aj0osqndt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
