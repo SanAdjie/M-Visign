@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:wehedev/calling_screen.dart';
 import 'package:wehedev/screen/daftar.dart';
 import 'package:wehedev/screen/dashboard/profil.dart';
-import '../components/constant.dart';
+import '../utility/constant.dart';
 
 // ignore: camel_case_types
 class HalamanLogin extends StatefulWidget {
@@ -18,6 +18,7 @@ class HalamanLogin extends StatefulWidget {
 class _LoginState extends State<HalamanLogin> {
   final TextEditingController _emailCons = TextEditingController();
   final TextEditingController _passwordCons = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

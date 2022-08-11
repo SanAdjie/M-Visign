@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 
 class Kamar4 extends StatefulWidget {
   const Kamar4({Key? key}) : super(key: key);

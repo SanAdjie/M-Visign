@@ -1,8 +1,6 @@
-// ignore_for_file: camel_case_types
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 import 'package:wehedev/screen/dashboard/profil.dart';
 import 'package:wehedev/calling_screen.dart';
 
@@ -20,6 +18,7 @@ class _penDaftaranState extends State<penDaftaran> {
   final TextEditingController _idCons = TextEditingController();
   final TextEditingController _profesiCons = TextEditingController();
   final TextEditingController _spesialisCons = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

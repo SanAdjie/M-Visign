@@ -11,3 +11,8 @@ const logoColor = Color.fromARGB(255, 35, 138, 145);
 const bgContainer = Color.fromARGB(255, 201, 223, 242);
 
 const double dPadding = 20.0;
+
+const kSpacer10 = SizedBox(height: 10);
+const kSpacer15 = SizedBox(height: 15);
+const kSpacer20 = SizedBox(height: 20);
+

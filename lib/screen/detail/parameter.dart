@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 
 SizedBox isi1(BuildContext context) {
   Size size = MediaQuery.of(context).size;

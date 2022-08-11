@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 
 TextField tex(
     String text, IconData icon, bool isPass, TextEditingController controller) {

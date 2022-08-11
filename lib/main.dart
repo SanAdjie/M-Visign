@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:wehedev/screen/daftar.dart';
+import 'package:wehedev/Update//daftar2.dart';
 import 'package:wehedev/screen/masuk.dart';
+import 'package:wehedev/Update/masuk2.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,8 +22,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
-        home: const HalamanLogin());
+          visualDensity: VisualDensity.adaptivePlatformDensity),
+        home: Login2());
   }
 }

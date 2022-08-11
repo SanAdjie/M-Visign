@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 import 'package:wehedev/screen/detail/listKamar/kamar1.dart';
 import 'package:wehedev/screen/detail/listKamar/kamar2.dart';
 import 'package:wehedev/screen/detail/listKamar/kamar3.dart';

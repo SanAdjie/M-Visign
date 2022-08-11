@@ -1,17 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/bg_screen_baru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Update/daftar2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Update/masuk2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_bg_1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_textfield.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utility/Networking.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/calling_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calling_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utility/constant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/daftar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/daftar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/dashboard/informasi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/dashboard/informasi.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/dashboard/profil.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/dashboard/profil.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/kamar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/kamar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/bioPasien.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/bioPasien.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar1.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar3.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar4.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar4.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar5.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar5.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/detail/parameter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/parameter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/masuk.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/masuk.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wehedev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wehedev.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2D9sfYufvpa9HR52h4yx8PyFuP8" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <option name="show-excluded-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/Update" />
+      <recent name="$PROJECT_DIR$/lib/utility" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="" />
+      <created>1660122740348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660122740348</updated>
+    </task>
+    <servers />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
@@ -19,18 +104,16 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

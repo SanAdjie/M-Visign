@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 import 'package:wehedev/screen/detail/kamar.dart';
 import 'package:wehedev/screen/detail/listKamar/bioPasien.dart';
 import 'package:wehedev/screen/dashboard/profil.dart';

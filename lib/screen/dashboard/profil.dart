@@ -2,7 +2,7 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/constant.dart';
+import 'package:wehedev/utility/constant.dart';
 import 'package:wehedev/screen/dashboard/informasi.dart';
 import 'package:wehedev/screen/masuk.dart';
 
