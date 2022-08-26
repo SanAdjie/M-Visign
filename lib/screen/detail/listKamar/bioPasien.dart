@@ -27,13 +27,13 @@ class _BioPasienState extends State<BioPasien> {
                 child: Container(
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(50)),
-                      color: bgContainer),
+                      color: kColorContainer),
                   child: const Text("Nama :",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "PoppinsBold",
                           fontSize: 20,
-                          color: kColor)),
+                          color: kColorBlack1)),
                 )),
             SizedBox(
               width: size.width * 0.15 - 50,
@@ -45,13 +45,13 @@ class _BioPasienState extends State<BioPasien> {
                 child: Container(
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(50)),
-                      color: logoColor),
+                      color: kColorLogo),
                   child: const Text("Nama",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "PoppinsBold",
                           fontSize: 20,
-                          color: pColor)),
+                          color: kColorWhite)),
                 )),
           ],
         ),
@@ -70,13 +70,13 @@ class _BioPasienState extends State<BioPasien> {
                 child: Container(
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(50)),
-                      color: bgContainer),
+                      color: kColorContainer),
                   child: const Text("Umur :",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "PoppinsBold",
                           fontSize: 20,
-                          color: kColor)),
+                          color: kColorBlack1)),
                 )),
             SizedBox(
               width: size.width * 0.15 - 50,
@@ -88,13 +88,13 @@ class _BioPasienState extends State<BioPasien> {
                 child: Container(
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(50)),
-                      color: logoColor),
+                      color: kColorLogo),
                   child: const Text("Umur",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "PoppinsBold",
                           fontSize: 20,
-                          color: pColor)),
+                          color: kColorWhite)),
                 )),
           ],
         ),
@@ -113,13 +113,13 @@ class _BioPasienState extends State<BioPasien> {
                 child: Container(
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(50)),
-                      color: bgContainer),
+                      color: kColorContainer),
                   child: const Text("Status :",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "PoppinsBold",
                           fontSize: 20,
-                          color: kColor)),
+                          color: kColorBlack1)),
                 )),
             SizedBox(
               width: size.width * 0.15 - 50,
@@ -131,13 +131,13 @@ class _BioPasienState extends State<BioPasien> {
                 child: Container(
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(50)),
-                      color: logoColor),
+                      color: kColorLogo),
                   child: const Text("Status",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "PoppinsBold",
                           fontSize: 20,
-                          color: pColor)),
+                          color: kColorWhite)),
                 )),
           ],
         )

@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/bg_screen_baru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Update/daftar2.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Update/masuk2.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/components/reusable_bg_1.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/components/reusable_button.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/components/reusable_textfield.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utility/Networking.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="Update UI (Rasyid)">
+      <change afterPath="$PROJECT_DIR$/assets/images/bg_screen_baru2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_bg2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_bottomNavBar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screen2/daftar2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screen2/dashboard2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screen2/masuk2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screen2/menu2.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Update/daftar2.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Update/masuk2.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/calling_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calling_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utility/constant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/reusable_bg_1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_bg1.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/reusable_textfield.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_textfield.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen/daftar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/daftar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen/dashboard/informasi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/dashboard/informasi.dart" afterDir="false" />
@@ -31,10 +36,8 @@
       <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar5.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar5.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen/detail/parameter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/parameter.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen/masuk.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/masuk.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utility/Networking.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utility/networking.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utility/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utility/constant.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wehedev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wehedev.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Dart File" />
       </list>
     </option>
@@ -72,9 +76,10 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -82,10 +87,24 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/lib/Update" />
       <recent name="$PROJECT_DIR$/lib/utility" />
-      <recent name="$PROJECT_DIR$/assets/images" />
     </key>
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing" />
+      <module name="wehedev" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testing" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660122740348</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update UI (Rasyid)">
+      <created>1660227817798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660227817804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -115,5 +142,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update UI (Rasyid)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update UI (Rasyid)" />
   </component>
 </project>

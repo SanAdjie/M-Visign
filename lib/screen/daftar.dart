@@ -37,7 +37,7 @@ class _penDaftaranState extends State<penDaftaran> {
           height: size.height,
           decoration: const BoxDecoration(
               gradient: LinearGradient(
-                  colors: <Color>[cBG, tColor, pColor],
+                  colors: <Color>[kColorBG, kColorDGrey, kColorWhite],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter)),
           child: SingleChildScrollView(

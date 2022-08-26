@@ -28,7 +28,7 @@ class _LoginState extends State<HalamanLogin> {
             height: size.height,
             decoration: const BoxDecoration(
                 gradient: LinearGradient(
-                    colors: <Color>[cBG, tColor, pColor],
+                    colors: <Color>[kColorBG, kColorDGrey, kColorWhite],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter)),
             child: SingleChildScrollView(
@@ -83,7 +83,7 @@ class _LoginState extends State<HalamanLogin> {
           },
           child: const Text(
             " Daftar",
-            style: TextStyle(color: logoColor, fontWeight: FontWeight.bold),
+            style: TextStyle(color: kColorLogo, fontWeight: FontWeight.bold),
           ),
         ),
       ],

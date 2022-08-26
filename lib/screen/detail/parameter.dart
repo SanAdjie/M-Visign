@@ -15,7 +15,7 @@ SizedBox isi1(BuildContext context) {
                 width: size.width * 0.1 + 20,
                 child: const Text("%SpO2",
                     style: TextStyle(
-                        color: pColor,
+                        color: kColorWhite,
                         fontFamily: 'RobotoMedium',
                         fontSize: 12))),
             SizedBox(
@@ -23,7 +23,7 @@ SizedBox isi1(BuildContext context) {
                 child: const Text(
                   "Kadar Oksigen",
                   style: TextStyle(
-                      color: pColor, fontFamily: 'RobotoMedium', fontSize: 12),
+                      color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 12),
                 ))
           ],
         ),
@@ -34,7 +34,7 @@ SizedBox isi1(BuildContext context) {
             child: Text(
               "0",
               style: TextStyle(
-                  color: pColor, fontFamily: 'RobotoMedium', fontSize: 36),
+                  color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 36),
             ),
           ),
           SizedBox(
@@ -52,7 +52,7 @@ SizedBox isi1(BuildContext context) {
         child: Text(
           "Normal",
           style: TextStyle(
-              color: pColor, fontFamily: 'RobotoMedium', fontSize: 16),
+              color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 16),
         ),
       ),
     ]),
@@ -73,7 +73,7 @@ SizedBox isi2(BuildContext context) {
                 width: size.width * 0.1 + 20,
                 child: const Text("PRbpm",
                     style: TextStyle(
-                        color: pColor,
+                        color: kColorWhite,
                         fontFamily: 'RobotoMedium',
                         fontSize: 12))),
             SizedBox(
@@ -81,7 +81,7 @@ SizedBox isi2(BuildContext context) {
                 child: const Text(
                   "Detak Jantung",
                   style: TextStyle(
-                      color: pColor, fontFamily: 'RobotoMedium', fontSize: 12),
+                      color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 12),
                 ))
           ],
         ),
@@ -92,7 +92,7 @@ SizedBox isi2(BuildContext context) {
             child: Text(
               "0",
               style: TextStyle(
-                  color: pColor, fontFamily: 'RobotoMedium', fontSize: 36),
+                  color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 36),
             ),
           ),
           SizedBox(
@@ -110,7 +110,7 @@ SizedBox isi2(BuildContext context) {
         child: Text(
           "Normal",
           style: TextStyle(
-              color: pColor, fontFamily: 'RobotoMedium', fontSize: 16),
+              color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 16),
         ),
       ),
     ]),
@@ -130,7 +130,7 @@ SizedBox isi3(BuildContext context) {
                 width: size.width * 0.1 + 20,
                 child: const Text("mmHG",
                     style: TextStyle(
-                        color: pColor,
+                        color: kColorWhite,
                         fontFamily: 'RobotoMedium',
                         fontSize: 12))),
             SizedBox(
@@ -138,7 +138,7 @@ SizedBox isi3(BuildContext context) {
                 child: const Text(
                   "Tekanan Darah",
                   style: TextStyle(
-                      color: pColor, fontFamily: 'RobotoMedium', fontSize: 12),
+                      color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 12),
                 ))
           ],
         ),
@@ -149,7 +149,7 @@ SizedBox isi3(BuildContext context) {
             child: Text(
               "0",
               style: TextStyle(
-                  color: pColor, fontFamily: 'RobotoMedium', fontSize: 36),
+                  color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 36),
             ),
           ),
           SizedBox(
@@ -167,7 +167,7 @@ SizedBox isi3(BuildContext context) {
         child: Text(
           "Normal",
           style: TextStyle(
-              color: pColor, fontFamily: 'RobotoMedium', fontSize: 16),
+              color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 16),
         ),
       ),
     ]),
@@ -187,7 +187,7 @@ SizedBox isi4(BuildContext context) {
                 width: size.width * 0.1 + 20,
                 child: const Text("Celcius",
                     style: TextStyle(
-                        color: pColor,
+                        color: kColorWhite,
                         fontFamily: 'RobotoMedium',
                         fontSize: 12))),
             SizedBox(
@@ -195,7 +195,7 @@ SizedBox isi4(BuildContext context) {
                 child: const Text(
                   "Suhu Tubuh",
                   style: TextStyle(
-                      color: pColor, fontFamily: 'RobotoMedium', fontSize: 12),
+                      color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 12),
                 ))
           ],
         ),
@@ -206,7 +206,7 @@ SizedBox isi4(BuildContext context) {
             child: Text(
               "0",
               style: TextStyle(
-                  color: pColor, fontFamily: 'RobotoMedium', fontSize: 36),
+                  color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 36),
             ),
           ),
           SizedBox(
@@ -224,7 +224,7 @@ SizedBox isi4(BuildContext context) {
         child: Text(
           "Normal",
           style: TextStyle(
-              color: pColor, fontFamily: 'RobotoMedium', fontSize: 16),
+              color: kColorWhite, fontFamily: 'RobotoMedium', fontSize: 16),
         ),
       ),
     ]),

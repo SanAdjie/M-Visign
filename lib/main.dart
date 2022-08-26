@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+
+//Screen 1
 import 'package:wehedev/screen/daftar.dart';
-import 'package:wehedev/Update//daftar2.dart';
 import 'package:wehedev/screen/masuk.dart';
-import 'package:wehedev/Update/masuk2.dart';
+import 'screen/dashboard/profil.dart';
+
+//Screen 2
+import 'package:wehedev/screen2/masuk2.dart';
+import 'package:wehedev/screen2/daftar2.dart';
+import 'screen2/menu2.dart';
+import 'screen2/dashboard2.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,10 +26,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity),
-        home: Login2());
+        home: Main2());
   }
 }

@@ -31,7 +31,7 @@ class _KamarPasienState extends State<KamarPasien> {
               child: Container(
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
-                    color: cBG),
+                    color: kColorBG),
                 child: const Kamar1(),
               ),
             ),
@@ -44,7 +44,7 @@ class _KamarPasienState extends State<KamarPasien> {
               child: Container(
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
-                    color: cBG),
+                    color: kColorBG),
                 child: const Kamar2(),
               ),
             ),
@@ -57,7 +57,7 @@ class _KamarPasienState extends State<KamarPasien> {
               child: Container(
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
-                    color: cBG),
+                    color: kColorBG),
                 child: const Kamar3(),
               ),
             ),
@@ -70,7 +70,7 @@ class _KamarPasienState extends State<KamarPasien> {
               child: Container(
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
-                    color: cBG),
+                    color: kColorBG),
                 child: const Kamar4(),
               ),
             ),

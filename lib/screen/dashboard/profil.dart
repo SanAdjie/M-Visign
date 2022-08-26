@@ -13,7 +13,7 @@ class profilUser extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: cBG,
+      backgroundColor: kColorBG,
       drawer: const MenuSide(),
       appBar: buildAppBar(),
       body: SafeArea(
@@ -29,14 +29,14 @@ class profilUser extends StatelessWidget {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15),
                     ),
-                    color: pColor),
+                    color: kColorWhite),
                 child: Stack(children: [
                   const Padding(
                     padding: EdgeInsets.only(left: 15.0, top: 20),
                     child: Text("Dashboard",
                         textAlign: TextAlign.left,
                         style: TextStyle(
-                            color: kColor,
+                            color: kColorBlack1,
                             fontFamily: 'RobotoMedium',
                             fontSize: 20)),
                   ),
@@ -49,14 +49,14 @@ class profilUser extends StatelessWidget {
                               decoration: const BoxDecoration(
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(10)),
-                                  color: logoColor),
+                                  color: kColorLogo),
                               child: const Center(
                                   child: Text(
                                 "FOTO PROFIL",
                                 style: TextStyle(
                                     fontFamily: "PoppinsBold",
                                     fontSize: 12,
-                                    color: pColor),
+                                    color: kColorWhite),
                               ))))),
                   Padding(
                       padding:
@@ -165,8 +165,8 @@ class profilUser extends StatelessWidget {
 
   AppBar buildAppBar() {
     return AppBar(
-      backgroundColor: cBG,
-      shadowColor: cBG,
+      backgroundColor: kColorBG,
+      shadowColor: kColorBG,
     );
   }
 }
@@ -180,7 +180,7 @@ class MenuSide extends StatelessWidget {
         child: ListView(padding: EdgeInsets.zero, children: <Widget>[
       const DrawerHeader(
           decoration: BoxDecoration(
-            color: pColor,
+            color: kColorWhite,
             image: DecorationImage(
               fit: BoxFit.fitHeight,
               image: AssetImage(
@@ -202,7 +202,7 @@ class MenuSide extends StatelessWidget {
           alignment: Alignment.bottomRight,
           child: ElevatedButton(
               style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all<Color>(logoColor),
+                  backgroundColor: MaterialStateProperty.all<Color>(kColorLogo),
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18.0),

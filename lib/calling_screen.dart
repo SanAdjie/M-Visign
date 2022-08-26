@@ -11,9 +11,9 @@ TextField tex(
     cursorColor: Colors.indigo,
     style: TextStyle(color: Colors.black.withOpacity(0.9)),
     decoration: InputDecoration(
-      prefixIcon: Icon(icon, color: logoColor),
+      prefixIcon: Icon(icon, color: kColorLogo),
       labelText: text,
-      labelStyle: const TextStyle(color: logoColor),
+      labelStyle: const TextStyle(color: kColorLogo),
       filled: true,
       floatingLabelBehavior: FloatingLabelBehavior.never,
       fillColor: Colors.white.withOpacity(0.3),

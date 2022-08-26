@@ -66,7 +66,7 @@ class Infoh extends State<Info> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: cBG,
+      backgroundColor: kColorBG,
       appBar: buildAppBar(),
       body: SafeArea(
           child: SingleChildScrollView(
@@ -85,7 +85,7 @@ class Infoh extends State<Info> {
                     topLeft: Radius.circular(35),
                     topRight: Radius.circular(35),
                   ),
-                  color: pColor),
+                  color: kColorWhite),
               child: Column(children: [
                 Padding(
                     padding: const EdgeInsets.only(top: 30),
@@ -94,7 +94,7 @@ class Infoh extends State<Info> {
                         height: size.height * 0.4 - 20,
                         decoration: const BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(35)),
-                            color: cBG),
+                            color: kColorBG),
                         child: Column(
                           children: [
                             Row(
@@ -112,7 +112,7 @@ class Infoh extends State<Info> {
                                               width: size.width * 0.1 + 20,
                                               child: const Text("%SpO2",
                                                   style: TextStyle(
-                                                      color: pColor,
+                                                      color: kColorWhite,
                                                       fontFamily:
                                                           'RobotoMedium',
                                                       fontSize: 12))),
@@ -121,7 +121,7 @@ class Infoh extends State<Info> {
                                               child: const Text(
                                                 "Kadar Oksigen",
                                                 style: TextStyle(
-                                                    color: pColor,
+                                                    color: kColorWhite,
                                                     fontFamily: 'RobotoMedium',
                                                     fontSize: 12),
                                               ))
@@ -134,7 +134,7 @@ class Infoh extends State<Info> {
                                           child: Text(
                                             _tex1,
                                             style: const TextStyle(
-                                                color: pColor,
+                                                color: kColorWhite,
                                                 fontFamily: 'RobotoMedium',
                                                 fontSize: 36),
                                           ),
@@ -154,7 +154,7 @@ class Infoh extends State<Info> {
                                       child: Text(
                                         "Normal",
                                         style: TextStyle(
-                                            color: pColor,
+                                            color: kColorWhite,
                                             fontFamily: 'RobotoMedium',
                                             fontSize: 16),
                                       ),
@@ -177,7 +177,7 @@ class Infoh extends State<Info> {
                                               width: size.width * 0.1 + 20,
                                               child: const Text("PRbpm",
                                                   style: TextStyle(
-                                                      color: pColor,
+                                                      color: kColorWhite,
                                                       fontFamily:
                                                           'RobotoMedium',
                                                       fontSize: 12))),
@@ -186,7 +186,7 @@ class Infoh extends State<Info> {
                                               child: const Text(
                                                 "Detak Jantung",
                                                 style: TextStyle(
-                                                    color: pColor,
+                                                    color: kColorWhite,
                                                     fontFamily: 'RobotoMedium',
                                                     fontSize: 12),
                                               ))
@@ -199,7 +199,7 @@ class Infoh extends State<Info> {
                                           child: Text(
                                             _tex3,
                                             style: const TextStyle(
-                                                color: pColor,
+                                                color: kColorWhite,
                                                 fontFamily: 'RobotoMedium',
                                                 fontSize: 36),
                                           ),
@@ -219,7 +219,7 @@ class Infoh extends State<Info> {
                                       child: Text(
                                         "Normal",
                                         style: TextStyle(
-                                            color: pColor,
+                                            color: kColorWhite,
                                             fontFamily: 'RobotoMedium',
                                             fontSize: 16),
                                       ),
@@ -244,7 +244,7 @@ class Infoh extends State<Info> {
                                               width: size.width * 0.1 + 20,
                                               child: const Text("mmHG",
                                                   style: TextStyle(
-                                                      color: pColor,
+                                                      color: kColorWhite,
                                                       fontFamily:
                                                           'RobotoMedium',
                                                       fontSize: 12))),
@@ -253,7 +253,7 @@ class Infoh extends State<Info> {
                                               child: const Text(
                                                 "Tekanan Darah",
                                                 style: TextStyle(
-                                                    color: pColor,
+                                                    color: kColorWhite,
                                                     fontFamily: 'RobotoMedium',
                                                     fontSize: 12),
                                               ))
@@ -266,7 +266,7 @@ class Infoh extends State<Info> {
                                           child: Text(
                                             "123/81",
                                             style: TextStyle(
-                                                color: pColor,
+                                                color: kColorWhite,
                                                 fontFamily: 'RobotoMedium',
                                                 fontSize: 36),
                                           ),
@@ -286,7 +286,7 @@ class Infoh extends State<Info> {
                                       child: Text(
                                         "Normal",
                                         style: TextStyle(
-                                            color: pColor,
+                                            color: kColorWhite,
                                             fontFamily: 'RobotoMedium',
                                             fontSize: 16),
                                       ),
@@ -309,7 +309,7 @@ class Infoh extends State<Info> {
                                               width: size.width * 0.1 + 20,
                                               child: const Text("Celcius",
                                                   style: TextStyle(
-                                                      color: pColor,
+                                                      color: kColorWhite,
                                                       fontFamily:
                                                           'RobotoMedium',
                                                       fontSize: 12))),
@@ -318,7 +318,7 @@ class Infoh extends State<Info> {
                                               child: const Text(
                                                 "Suhu Tubuh",
                                                 style: TextStyle(
-                                                    color: pColor,
+                                                    color: kColorWhite,
                                                     fontFamily: 'RobotoMedium',
                                                     fontSize: 12),
                                               ))
@@ -331,7 +331,7 @@ class Infoh extends State<Info> {
                                           child: Text(
                                             _tex2,
                                             style: const TextStyle(
-                                                color: pColor,
+                                                color: kColorWhite,
                                                 fontFamily: 'RobotoMedium',
                                                 fontSize: 36),
                                           ),
@@ -351,7 +351,7 @@ class Infoh extends State<Info> {
                                       child: Text(
                                         "Normal",
                                         style: TextStyle(
-                                            color: pColor,
+                                            color: kColorWhite,
                                             fontFamily: 'RobotoMedium',
                                             fontSize: 16),
                                       ),
@@ -415,8 +415,8 @@ class Infoh extends State<Info> {
         "Detail Informasi",
         style: TextStyle(fontFamily: "PoppinsBold"),
       ),
-      backgroundColor: cBG,
-      shadowColor: cBG,
+      backgroundColor: kColorBG,
+      shadowColor: kColorBG,
     );
   }
 

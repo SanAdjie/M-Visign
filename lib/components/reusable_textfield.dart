@@ -16,11 +16,11 @@ class ReusableTextField extends StatelessWidget {
   //Method
   inputStyle1(){
     return InputDecoration(
-        prefixIcon: Icon(icon, color: Color(0xFF1C468A), size: 28,),
+        prefixIcon: Icon(icon, color: kColorDBlue2, size: 28,),
         isDense: true,
-        contentPadding: const EdgeInsets.all(15),
+        contentPadding: const EdgeInsets.symmetric(vertical: 20),
         labelText: text,
-        labelStyle: const TextStyle(color: Color(0xFF1C468A), fontWeight: FontWeight.w500),
+        labelStyle: const TextStyle(color: kColorDBlue, fontWeight: FontWeight.w500),
         filled: true,
         floatingLabelBehavior: FloatingLabelBehavior.never,
         fillColor: const Color(0x5FD9D9D9),
@@ -34,18 +34,17 @@ class ReusableTextField extends StatelessWidget {
         isDense: true,
         contentPadding: const EdgeInsets.all(15),
         labelText: text,
-        labelStyle: const TextStyle(color: Color(0xFFC4C4C4)),
+        labelStyle: const TextStyle(color: kColorGrey),
         floatingLabelBehavior: FloatingLabelBehavior.never,
         suffixIcon: GestureDetector(
           onTap: onTap,
-          child: Icon(icon),
-        ),
+          child: Icon(icon)),
         enabledBorder:  OutlineInputBorder(
             borderRadius: BorderRadius.circular(15.0),
-            borderSide: const BorderSide(color: Color(0xFFC4C4C4))),
+            borderSide: const BorderSide(color: kColorWhite2)),
         border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15.0),
-            borderSide: const BorderSide(width: 2, color: Colors.blue)));
+            borderSide: const BorderSide(width: 2, color: kColorBlue3)));
   }
 
   @override
@@ -56,7 +55,7 @@ class ReusableTextField extends StatelessWidget {
       enableSuggestions: !isPass,
       autocorrect: !isPass,
       cursorColor: Colors.indigo,
-      style: TextStyle(color: Colors.black.withOpacity(0.9)),
+      style: const TextStyle(color: kColorDBlue),
       keyboardType: isPass ? TextInputType.visiblePassword : TextInputType.emailAddress,
       decoration: style == 1? inputStyle1():inputStyle2(),
     );

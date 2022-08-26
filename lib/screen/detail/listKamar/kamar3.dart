@@ -19,7 +19,7 @@ class _Kamar3State extends State<Kamar3> {
           child: Text(
             "Kamar 3",
             style: TextStyle(
-                fontFamily: "PoppinsBold", fontSize: 12, color: pColor),
+                fontFamily: "PoppinsBold", fontSize: 12, color: kColorWhite),
           ),
         ),
         Row(
@@ -30,7 +30,7 @@ class _Kamar3State extends State<Kamar3> {
                 child: Container(
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: cBG2,
+                      color: kColorBG2,
                     ),
                     child: const Text(
                       "3A",
@@ -38,14 +38,14 @@ class _Kamar3State extends State<Kamar3> {
                           fontFamily: "PoppinsBold",
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
-                          color: kColor),
+                          color: kColorBlack1),
                     ))),
             InkWell(
                 onTap: () => setState(() {}),
                 child: Container(
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: cBG2,
+                      color: kColorBG2,
                     ),
                     child: const Text(
                       "3B",
@@ -53,7 +53,7 @@ class _Kamar3State extends State<Kamar3> {
                           fontFamily: "PoppinsBold",
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
-                          color: kColor),
+                          color: kColorBlack1),
                     )))
           ],
         )

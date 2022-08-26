@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
@@ -16,9 +17,13 @@ class Network{
 
     if(respon.statusCode == 200){
       data = respon.body;
-      return JsonDecoder().convert(data);
+      return const JsonDecoder().convert(data);
     }else{
-      print(respon.statusCode);
+      if (kDebugMode) {
+        print(respon.statusCode);
+      }
+      //TODO: ERROR ALERT! TRY-CATCH (EXCEPTION HANDLING) DIPERLUKAN!. JIKA TIDAK DIBUTUHKAN, HAPUS THROW.
+      throw 'Kesalahan Pengambilan Data Json';
     }
   }
 
