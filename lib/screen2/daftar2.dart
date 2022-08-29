@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/reusable_textfield.dart';
-import 'package:wehedev/utility/constant.dart';
-import 'package:wehedev/components/reusable_bg1.dart';
-import 'package:wehedev/components/reusable_button.dart';
+import '../utility/constant.dart';
+import '../components/reusable_textfield.dart';
+import '../components/reusable_bg1.dart';
+import '../components/reusable_button.dart';
+import '../screen2/profile2.dart';
 
 class Daftar2 extends StatefulWidget {
   const Daftar2({Key? key}) : super(key: key);
@@ -57,7 +58,9 @@ class _Daftar2State extends State<Daftar2> {
                       kSpacer20,
                       ReusableTextField(text: "Spesialis", icon: Icons.person, isPass: false, controller: _spesialisCons, style: 1),
                       kSpacer15,
-                      ReusableButton(text: "Sign Up".toUpperCase(), ontap: (){})
+                      ReusableButton(text: "Sign Up".toUpperCase(), ontap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => const Profile2()));
+                      })
                     ],
                   ),
                 ),

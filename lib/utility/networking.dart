@@ -19,7 +19,7 @@ class Network{
       data = respon.body;
       return const JsonDecoder().convert(data);
     }else{
-      if (kDebugMode) {
+      if (kDebugMode){
         print(respon.statusCode);
       }
       //TODO: ERROR ALERT! TRY-CATCH (EXCEPTION HANDLING) DIPERLUKAN!. JIKA TIDAK DIBUTUHKAN, HAPUS THROW.

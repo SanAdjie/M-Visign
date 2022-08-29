@@ -1,18 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/utility/constant.dart';
-import 'package:wehedev/components/reusable_bg1.dart';
-import 'package:wehedev/components/reusable_button.dart';
-import 'package:wehedev/components/reusable_textfield.dart';
+import '../utility/constant.dart';
+import '../components/reusable_bg1.dart';
+import '../components/reusable_button.dart';
+import '../components/reusable_textfield.dart';
+import '../screen2/profile2.dart';
+import '../screen2/daftar2.dart';
 
-class Login2 extends StatefulWidget {
+class Masuk2 extends StatefulWidget {
 
   static const id = "Login2";
 
   @override
-  State<Login2> createState() => _Login2State();
+  State<Masuk2> createState() => _Masuk2State();
 }
 
-class _Login2State extends State<Login2> with SingleTickerProviderStateMixin{
+class _Masuk2State extends State<Masuk2> with SingleTickerProviderStateMixin{
 //Property
   final TextEditingController _emailCons = TextEditingController();
   final TextEditingController _passwordCons = TextEditingController();
@@ -97,15 +99,18 @@ class _Login2State extends State<Login2> with SingleTickerProviderStateMixin{
                             });}),
                           kSpacer20,
                           ReusableButton(text: "Log In".toUpperCase(), ontap: (){
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => const Profile2()));
                             ///LOGIN PERLU TRY-CATCH + ASYNC-AWAIT + MODAL PROGRESS HUD.
                             ///CATCH DARI FIREBASE, UBAH KE WIDGET ALERT JIKA THROWN ERROR.
                           }),
                           kSpacer20,
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: const <Widget>[
-                              Text("Belum punya akun ?", style: TextStyle(color: kColorGrey, fontWeight: kFW600)),
-                              Text("Daftar Sekarang", style: TextStyle(color: kColorDBlue, fontWeight: kFW600))],
+                            children: <Widget>[
+                              const Text("Belum punya akun ?", style: TextStyle(color: kColorGrey, fontWeight: kFW600)),
+                              GestureDetector(child: const Text("Daftar Sekarang", style: TextStyle(color: kColorDBlue, fontWeight: kFW600)), onTap: (){
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => const Daftar2()));
+                              })],
                           )
                         ],
                       ),

@@ -1,21 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:wehedev/components/reusable_bg2.dart';
-import 'package:wehedev/utility/constant.dart';
-import 'package:wehedev/components/reusable_bottomNavBar.dart';
+import '../components/reusable_bg2.dart';
+import '../utility/constant.dart';
+import '../components/reusable_bottomNavBar.dart';
+import '../screen2/dashboard2.dart';
 
-class Main2 extends StatefulWidget {
-  const Main2({Key? key}) : super(key: key);
+class Profile2 extends StatefulWidget {
+  const Profile2({Key? key}) : super(key: key);
 
   static const id = "Menu2";
 
   @override
-  State<Main2> createState() => _Main2State();
+  State<Profile2> createState() => _Profile2State();
 }
 
-class _Main2State extends State<Main2> {
+class _Profile2State extends State<Profile2> {
 
+  //Property (State)
   int indexItemNavBar = 0;
 
+  //Methods
   @override
   void initState() {
     super.initState();
@@ -24,9 +27,7 @@ class _Main2State extends State<Main2> {
   }
 
   void bottomAppBarStateChange(int index) {
-    setState((){
-      indexItemNavBar = index;
-    });
+    index == 1? Navigator.push(context, MaterialPageRoute(builder: (context) => const Dashboard2())) : null;
   }
 
   @override
@@ -71,7 +72,7 @@ class _Main2State extends State<Main2> {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   Expanded(
-                      flex: 3,
+                      flex: 4,
                       child: Container(
                         padding : const EdgeInsets.fromLTRB(45, 10, 40, 0),
                         decoration: const BoxDecoration(
@@ -135,7 +136,9 @@ class _Main2State extends State<Main2> {
           ),
           bottomNavigationBar: SizedBox(
               height: 60,
-              child: ReusableBottomNavBar(indexItemNavBar: indexItemNavBar, onTap: bottomAppBarStateChange)),
+              child: ReusableBottomNavBar(
+                  indexItemNavBar: indexItemNavBar,
+                  onTap: bottomAppBarStateChange))
         ),
       ),
     );
