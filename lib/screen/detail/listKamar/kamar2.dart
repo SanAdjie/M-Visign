@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wehedev/utility/constant.dart';
 
 class Kamar2 extends StatefulWidget {
-  const Kamar2({Key? key}) : super(key: key);
+  const Kamar2(String s, {Key? key}) : super(key: key);
 
   @override
   State<Kamar2> createState() => _Kamar2State();

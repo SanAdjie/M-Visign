@@ -20,7 +20,7 @@ class ReusableBg1 extends StatelessWidget {
                       image: AssetImage("assets/images/bg_screen_baru.png"),
                       fit: BoxFit.fill)))),
         Expanded(
-            flex: 100,
+            flex: 80,
             child: Container(color: Colors.white))
       ],
     );

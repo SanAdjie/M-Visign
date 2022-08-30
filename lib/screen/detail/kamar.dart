@@ -45,7 +45,7 @@ class _KamarPasienState extends State<KamarPasien> {
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                     color: kColorBG),
-                child: const Kamar2(),
+                child: null,
               ),
             ),
           ),

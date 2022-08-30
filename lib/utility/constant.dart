@@ -20,7 +20,7 @@ const kColorDBlue = Color(0xFF1C468A);
 const kColorDBlue2 = Color(0xFF567EE4);
 const kColorOrange = Color(0xFFFF8A65);
 
-const double dPadding = 20.0;
+const kPadding = 20.0;
 
 const kSpacer10 = SizedBox(height: 10);
 const kSpacer15 = SizedBox(height: 15);
