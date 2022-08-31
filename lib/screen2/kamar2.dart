@@ -46,7 +46,12 @@ class _Kamar2State extends State<Kamar2> {
                           decoration: const BoxDecoration(
                               color: kColorWhite,
                               borderRadius: BorderRadius.vertical(top: Radius.circular(35))),
-                          child: null))
+                          child: Container(
+                            margin: const EdgeInsets.all(30),
+                              decoration: const BoxDecoration(
+                                  color: Color(0xFF00B9D0),
+                                  borderRadius: BorderRadius.all(Radius.circular(35)))
+                          )))
                 ],
               )
             ],

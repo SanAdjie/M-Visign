@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="29/8 : Update UI">
-      <change afterPath="$PROJECT_DIR$/lib/components/reusable_ruang.dart" afterDir="false" />
+    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="29/8 : Update Routes &amp; Send Data Forward">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/reusable_bg1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_bg1.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screen/detail/kamar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/kamar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/detail/listKamar/kamar2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/reusable_ruang.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_ruang.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen2/dashboard2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen2/dashboard2.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen2/kamar2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen2/kamar2.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utility/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utility/constant.dart" afterDir="false" />
@@ -129,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661759296352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="29/8 : Update Routes &amp; Send Data Forward">
+      <created>1661903800098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661903800098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -154,6 +158,7 @@
     <MESSAGE value="Update UI (Rasyid)" />
     <MESSAGE value="Update UI Terbaru" />
     <MESSAGE value="29/8 : Update UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="29/8 : Update UI" />
+    <MESSAGE value="29/8 : Update Routes &amp; Send Data Forward" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/8 : Update Routes &amp; Send Data Forward" />
   </component>
 </project>

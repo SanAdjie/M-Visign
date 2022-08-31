@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wehedev/utility/constant.dart';
 
 class Ruang extends StatelessWidget {
 
@@ -26,8 +27,8 @@ class Ruang extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Text(namaRuang),
-              const Icon(Icons.bed, size: 40)
+              Text(namaRuang, style: kStyleMenu,),
+              const Icon(Icons.bed, size: 40, color: kColorWhite,)
             ],
           ),
         ));

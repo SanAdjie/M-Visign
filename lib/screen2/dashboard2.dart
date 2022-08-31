@@ -36,6 +36,21 @@ class _Dashboard2State extends State<Dashboard2> {
       Ruang(namaRuang: "Ruang Aster ", onTap: (){
         Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Aster")));
       }),
+      Ruang(namaRuang: "Ruang Kamboja ", onTap: (){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Kamboja")));
+      }),
+      Ruang(namaRuang: "Ruang Anggrek ", onTap: (){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Anggrek")));
+      }),
+      Ruang(namaRuang: "Ruang Melati ", onTap: (){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Melati")));
+      }),
+      Ruang(namaRuang: "Ruang Dahlia", onTap: (){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Dahlia")));
+      }),
+      Ruang(namaRuang: "Ruang Bougenville", onTap: (){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Bougenville")));
+      }),
     ];
 
     return Container(
