@@ -27,7 +27,7 @@ class Ruang extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Text(namaRuang, style: kStyleMenu,),
+              Text(namaRuang, style: kStyleMenu, textAlign: TextAlign.center),
               const Icon(Icons.bed, size: 40, color: kColorWhite,)
             ],
           ),

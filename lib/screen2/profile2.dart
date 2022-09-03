@@ -86,7 +86,7 @@ class _Profile2State extends State<Profile2> {
                             Center(
                                 child: GestureDetector(
                                   onTap: null,
-                                  //TODO:
+                                  //TODO: Firebase Database
                                   child: Container(
                                       width: 143,
                                       height: 146,

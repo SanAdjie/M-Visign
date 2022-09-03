@@ -13,15 +13,20 @@ const kColorDGrey = Color(0xFFB0BEC5);
 const kColorBlack1 = Color(0xFF212121);
 const kColorBlack = Color(0xFF000000);
 const kColorCyan = Color(0xFF2ECCCB);
+const kColorCyan2 = Color(0xFF41DAD9);
 const kColorBlue = Color(0xFF03A9F4);
 const kColorBlue2 = Color(0xFF5686E1);
 const kColorBlue3 = Color(0xFF8C9DF4);
+const kColorBlue4 = Color(0xFF2398DA);
+const kColorBlue5 = Color(0xFF2DA9E3);
+const kColorBlue6 = Color(0xFFC0CAFC);
 const kColorDBlue = Color(0xFF1C468A);
 const kColorDBlue2 = Color(0xFF567EE4);
 const kColorOrange = Color(0xFFFF8A65);
 
 const kPadding = 20.0;
 
+const kSpacer5 = SizedBox(height: 5);
 const kSpacer10 = SizedBox(height: 10);
 const kSpacer15 = SizedBox(height: 15);
 const kSpacer20 = SizedBox(height: 20);
@@ -34,6 +39,8 @@ const kFWB = FontWeight.bold;
 
 const kStyleMenu = TextStyle(color: kColorDBlue, fontSize: 16, fontWeight: FontWeight.w500);
 const kStyleMenuHeader = TextStyle(fontSize: 27, fontWeight: FontWeight.bold, color: kColorDBlue);
+const kStyleKamarItem = TextStyle(fontSize: 25, fontWeight: FontWeight.bold);
+
 
 
 

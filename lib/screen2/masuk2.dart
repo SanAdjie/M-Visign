@@ -27,8 +27,6 @@ class _Masuk2State extends State<Masuk2> with SingleTickerProviderStateMixin{
   late num animasiValue;
   int animasiValueInt = 0;
 
-//Constructor
-
 //Method
   passwordVisibiltyState(){
     if(isPass == true){

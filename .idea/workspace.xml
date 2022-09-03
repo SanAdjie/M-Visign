@@ -9,11 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="29/8 : Update Routes &amp; Send Data Forward">
+    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="02/9 : Update State Kamar">
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_detailinformasikamar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/reusable_detailkamar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/components/reusable_ruang.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_ruang.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen2/dashboard2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen2/dashboard2.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen2/kamar2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen2/kamar2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen2/masuk2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen2/masuk2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen2/profile2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen2/profile2.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utility/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utility/constant.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661903800098</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="29/8 : Update Detail Kamar">
+      <created>1661908015226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661908015226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -159,6 +170,8 @@
     <MESSAGE value="Update UI Terbaru" />
     <MESSAGE value="29/8 : Update UI" />
     <MESSAGE value="29/8 : Update Routes &amp; Send Data Forward" />
-    <option name="LAST_COMMIT_MESSAGE" value="29/8 : Update Routes &amp; Send Data Forward" />
+    <MESSAGE value="29/8 : Update Detail Kamar" />
+    <MESSAGE value="02/9 : Update State Kamar" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/9 : Update State Kamar" />
   </component>
 </project>
