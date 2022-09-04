@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../screen2/kamar2.dart';
+import '../routes/kamar2.dart';
 import '../utility/constant.dart';
-import '../components/reusable_bg1.dart';
-import '../components/reusable_bottomNavBar.dart';
-import '../components/reusable_ruang.dart';
+import '../model_view/reusable_bg1.dart';
+import '../model_view/reusable_bottomNavBar.dart';
+import '../model_view/reusable_ruang.dart';
 
 class Dashboard2 extends StatefulWidget {
   const Dashboard2({Key? key}) : super(key: key);
@@ -28,6 +28,7 @@ class _Dashboard2State extends State<Dashboard2> {
   Widget build(BuildContext context) {
 
     List <Ruang> ruang2 = [
+      //TODO: Bisa diganti dengan Named Routes ygy
       Ruang(namaRuang: "Ruang Mawar", onTap: (){
         Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Mawar")));
       }),
@@ -61,6 +62,7 @@ class _Dashboard2State extends State<Dashboard2> {
     ];
 
     List <Widget> icd = const [
+      //TODO: Stateless Widget dapat digandeng & direfaktor ygy
       NomerICD(nomerICD: "A00 - A09"),
       NamaICD(namaICD: "Intestinal Infectious Diseases"),
       NomerICD(nomerICD: "A15 - A19"),

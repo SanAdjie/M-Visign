@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../utility/constant.dart';
-import '../components/reusable_bg1.dart';
-import '../components/reusable_button.dart';
-import '../components/reusable_textfield.dart';
-import '../screen2/profile2.dart';
-import '../screen2/daftar2.dart';
+import '../model_view/reusable_bg1.dart';
+import '../model_view/reusable_button.dart';
+import '../model_view/reusable_textfield.dart';
+import '../routes/profile2.dart';
+import '../routes/daftar2.dart';
 
 class Masuk2 extends StatefulWidget {
 

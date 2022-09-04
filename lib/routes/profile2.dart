@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../components/reusable_bg2.dart';
+import '../model_view/reusable_bg2.dart';
 import '../utility/constant.dart';
-import '../components/reusable_bottomNavBar.dart';
-import '../screen2/dashboard2.dart';
+import '../model_view/reusable_bottomNavBar.dart';
+import '../routes/dashboard2.dart';
 
 class Profile2 extends StatefulWidget {
   const Profile2({Key? key}) : super(key: key);

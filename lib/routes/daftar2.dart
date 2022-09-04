@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import '../utility/constant.dart';
-import '../components/reusable_textfield.dart';
-import '../components/reusable_bg1.dart';
-import '../components/reusable_button.dart';
-import '../screen2/profile2.dart';
+import '../model_view/reusable_textfield.dart';
+import '../model_view/reusable_bg1.dart';
+import '../model_view//reusable_button.dart';
+import '../routes/profile2.dart';
 
 class Daftar2 extends StatefulWidget {
   const Daftar2({Key? key}) : super(key: key);

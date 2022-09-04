@@ -1,18 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
-//Screen 1
-import '../screen/daftar.dart';
-import '../screen/dashboard/informasi.dart';
-import '../screen/masuk.dart';
-import '../screen/dashboard/profil.dart';
-
-//Screen 2
-import '../screen2/masuk2.dart';
-import '../screen2/daftar2.dart';
-import '../screen2/profile2.dart';
-import '../screen2/dashboard2.dart';
-import '../screen2/kamar2.dart';
+import '../routes/masuk2.dart';
+import '../routes/daftar2.dart';
+import '../routes/profile2.dart';
+import '../routes/dashboard2.dart';
+import '../routes/kamar2.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

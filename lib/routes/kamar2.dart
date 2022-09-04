@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../utility/constant.dart';
-import '../components/reusable_bg1.dart';
-import '../components/reusable_detailkamar.dart';
-import '../components/reusable_detailinformasikamar.dart';
+import '../model_view/reusable_bg1.dart';
+import '../model_view/reusable_detailkamar.dart';
+import '../model_view/reusable_detailinformasikamar.dart';
 
 
 class Kamar2 extends StatefulWidget {
@@ -57,10 +57,18 @@ class _Kamar2State extends State<Kamar2> {
   }
 
   @override
+  void initState() {
+    // TODO: Ambil data JSON
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
 
     List <Widget> kamar = [
-      //TODO : Seharusnya pake State Management (Provider, GetX, dsb). Sementara masih lifting up State ygy.
+      //TODO : [State Management] Seharusnya pake State Management (Provider, GetX, dsb).
+      //TODO : [Design Patter] Sementara masih lifting up State ygy. Tambah MVC Design Pattern lebih bagus~
+      //TODO : [WebHook][HTTP] Ambil data JSON dengan HTTP Request tidak Stream / Snapshot ygy~
       DetailKamar(nomerKamar: "1", subNomerKamar1: "1A", subNomerKamar2: "1B", aktivasiA: kondisi1A, aktivasiB: kondisi1B,
        onTap1: (){
         setState(() {
@@ -177,7 +185,62 @@ class _Kamar2State extends State<Kamar2> {
                               margin: const EdgeInsets.all(30),
                               decoration: const BoxDecoration(
                                   color: Color(0xFF00B9D0),
-                                  borderRadius: BorderRadius.all(Radius.circular(35)))
+                                  borderRadius: BorderRadius.all(Radius.circular(35))),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: <Widget>[
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                  children: <Widget>[
+                                    Container(
+                                      padding: EdgeInsets.all(15),
+                                      child: Column(
+                                        children: const <Widget>[
+                                          Text("%SPO2", style: TextStyle(color: kColorWhite)),
+                                          Text("Kadar Oksigen", style: TextStyle(color: kColorWhite, fontWeight: FontWeight.bold)),
+                                          Text("96", style: TextStyle(color: kColorWhite, fontSize: 40, fontWeight: FontWeight.bold)),
+                                          Text("Normal", style: TextStyle(color: kColorWhite, fontSize: 18, fontWeight: FontWeight.bold))
+                                        ],
+                                      )),
+                                    Container(
+                                        padding: EdgeInsets.all(15),
+                                        child: Column(
+                                          children: const <Widget>[
+                                            Text("PRbpm", style: TextStyle(color: kColorWhite)),
+                                            Text("Detak Jantung", style: TextStyle(color: kColorWhite, fontWeight: FontWeight.bold)),
+                                            Text("77", style: TextStyle(color: kColorWhite, fontSize: 40, fontWeight: FontWeight.bold)),
+                                            Text("Normal", style: TextStyle(color: kColorWhite, fontSize: 18, fontWeight: FontWeight.bold))
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                  children: <Widget>[
+                                    Container(
+                                        padding: EdgeInsets.all(15),
+                                        child: Column(
+                                          children: const <Widget>[
+                                            Text("mmHG", style: TextStyle(color: kColorWhite)),
+                                            Text("Tekanan Darah", style: TextStyle(color: kColorWhite, fontWeight: FontWeight.bold)),
+                                            Text("120/80", style: TextStyle(color: kColorWhite, fontSize: 40, fontWeight: FontWeight.bold)),
+                                            Text("Normal", style: TextStyle(color: kColorWhite, fontSize: 18, fontWeight: FontWeight.bold))
+                                          ],
+                                        )),
+                                    Container(
+                                        padding: EdgeInsets.all(15),
+                                        child: Column(
+                                          children: const <Widget>[
+                                            Text("Celcius", style: TextStyle(color: kColorWhite)),
+                                            Text("Suhu Tubuh", style: TextStyle(color: kColorWhite, fontWeight: FontWeight.bold)),
+                                            Text("33", style: TextStyle(color: kColorWhite, fontSize: 40, fontWeight: FontWeight.bold)),
+                                            Text("Normal", style: TextStyle(color: kColorWhite, fontSize: 18, fontWeight: FontWeight.bold))
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                              ],
+                            ),
                           )
                       )
                   )
