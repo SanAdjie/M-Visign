@@ -21,8 +21,7 @@ class DetailInformasiKamar extends StatelessWidget {
               decoration: const BoxDecoration(
                   color: kColorBlue4,
                   borderRadius: BorderRadius.all(Radius.circular(35))),
-              child: Text("$form : ", style: TextStyle(color: kColorWhite), textAlign: TextAlign.center),
-            )),
+              child: Text("$form : ", style: const TextStyle(color: kColorWhite, fontSize: 16), textAlign: TextAlign.center))),
         Expanded(
           flex: 3,
           child: Container(
@@ -31,7 +30,7 @@ class DetailInformasiKamar extends StatelessWidget {
               decoration: const BoxDecoration(
                   color: kColorCyan2,
                   borderRadius: BorderRadius.all(Radius.circular(35))),
-              child: Text(formValue, textAlign: TextAlign.center)),
+              child: Text(formValue, textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500))),
         ),
       ],
     );

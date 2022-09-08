@@ -53,14 +53,14 @@ class _Profile2State extends State<Profile2> {
               padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 18),
               children: <Widget>[
                 Container(
-                  //width: MediaQuery.of(context).size.width * 1,
-                  height: MediaQuery.of(context).size.width * 0.5,
+                  //width: MediaQuery.of(context).size.width * 0.5,
+                  height: MediaQuery.of(context).size.width * 0.4,
                   decoration: const BoxDecoration(
-                    image: DecorationImage(image: AssetImage("assets/images/New Logo.png")))),
+                    image: DecorationImage(image: AssetImage("assets/images/bg_mvisignbaru.png")))),
                 Container(
-                  padding: null,
+                  margin: const EdgeInsets.fromLTRB(10, 20, 10, 10),
                   //width: MediaQuery.of(context).size.width * 0.8,
-                  height: MediaQuery.of(context).size.width * 0.5,
+                  height: MediaQuery.of(context).size.width * 0.4,
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(20)),
                       color: kColorGrey3),
@@ -125,8 +125,7 @@ class _Profile2State extends State<Profile2> {
                             )
                           ]
                         )
-                      )
-                  ),
+                      )),
                   Expanded(
                       flex: 2,
                       child: Container())

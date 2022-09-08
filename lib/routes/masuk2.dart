@@ -10,6 +10,8 @@ class Masuk2 extends StatefulWidget {
 
   static const id = "Login2";
 
+  const Masuk2({Key? key}) : super(key: key);
+
   @override
   State<Masuk2> createState() => _Masuk2State();
 }
@@ -74,7 +76,7 @@ class _Masuk2State extends State<Masuk2> with SingleTickerProviderStateMixin{
                     SizedBox(
                         height: animasi.value*230,
                         width: animasi.value*180,
-                        child: Image.asset("assets/images/New Logo.png")),
+                        child: Image.asset("assets/images/bg_mvisignbaru.png")),
                     Container(
                       margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
                       padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 30),

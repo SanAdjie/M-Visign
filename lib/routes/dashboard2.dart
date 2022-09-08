@@ -30,65 +30,65 @@ class _Dashboard2State extends State<Dashboard2> {
     List <Ruang> ruang2 = [
       //TODO: Bisa diganti dengan Named Routes ygy
       Ruang(namaRuang: "Ruang Mawar", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Mawar")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Mawar")));
       }),
       Ruang(namaRuang: "Ruang Kemuning", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Kemuning")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Kemuning")));
       }),
       Ruang(namaRuang: "Ruang Aster ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Aster")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Aster")));
       }),
       Ruang(namaRuang: "Ruang Kamboja ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Kamboja")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Kamboja")));
       }),
       Ruang(namaRuang: "Ruang Anggrek ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Anggrek")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Anggrek")));
       }),
       Ruang(namaRuang: "Ruang Melati ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Melati")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Melati")));
       }),
       Ruang(namaRuang: "Ruang Dahlia", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Dahlia")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Dahlia")));
       }),
       Ruang(namaRuang: "Ruang Bougenville", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Bougenville")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Bougenville")));
       }),
       Ruang(namaRuang: "Ruang Raflesia", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Raflesia")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Raflesia")));
       }),
       Ruang(namaRuang: "Ruang Tulip", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Ruang Tulip")));
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Tulip")));
       }),
     ];
 
     List <Widget> icd = const [
       //TODO: Stateless Widget dapat digandeng & direfaktor ygy
       NomerICD(nomerICD: "A00 - A09"),
-      NamaICD(namaICD: "Intestinal Infectious Diseases"),
+      NamaICD(namaICD: "Intestinal Infectious \nDiseases"),
       NomerICD(nomerICD: "A15 - A19"),
       NamaICD(namaICD: "Tuberculosis"),
       NomerICD(nomerICD: "A20 - A28"),
-      NamaICD(namaICD: "Certain Zoonotic Bacterial Diseases"),
+      NamaICD(namaICD: "Certain Zoonotic \nBacterial Diseases"),
       NomerICD(nomerICD: "A30 - A49"),
-      NamaICD(namaICD: "Other Bacterial Diseases"),
+      NamaICD(namaICD: "Other Bacterial \nDiseases"),
       NomerICD(nomerICD: "A50 - A64"),
-      NamaICD(namaICD: "Infections With a Predominantly Sexual Mode of Transmission"),
+      NamaICD(namaICD: "Infections With a \nPredominantly Sexual \nMode of Transmission"),
       NomerICD(nomerICD: "A65 - A69"),
-      NamaICD(namaICD: "Other Spirochaetal Diseases"),
+      NamaICD(namaICD: "Other Spirochaetal \nDiseases"),
       NomerICD(nomerICD: "A70 - A74"),
-      NamaICD(namaICD: "Other Diseases Caused by Chlamydiae"),
+      NamaICD(namaICD: "Other Diseases \nCaused by Chlamydiae"),
       NomerICD(nomerICD: "A75 - A79"),
       NamaICD(namaICD: "Rickettsioses"),
       NomerICD(nomerICD: "A80 - A89"),
-      NamaICD(namaICD: "Viral Infections of the Central Nervous System"),
+      NamaICD(namaICD: "Viral Infections \nof the Central \nNervous System"),
       NomerICD(nomerICD: "A92 - A99"),
-      NamaICD(namaICD: "Arthropod-Borne Viral Fevers and Viral Haemorrhagic Fevers"),
+      NamaICD(namaICD: "Arthropod-Borne Viral \nFevers and Viral \nHaemorrhagic Fevers"),
       NomerICD(nomerICD: "B00 - B09"),
-      NamaICD(namaICD: "Viral Infections Characterized by Skin and Mucous Membrane Lesions"),
+      NamaICD(namaICD: "Viral Infections \nCharacterized by Skin and \nMucous Membrane Lesions"),
       NomerICD(nomerICD: "B15 - B19"),
       NamaICD(namaICD: "Viral Hepatitis"),
       NomerICD(nomerICD: "B20 - B24"),
-      NamaICD(namaICD: "Human Immunodeficiency Virus [HIV] Disease"),
+      NamaICD(namaICD: "Human Immunodeficiency \nVirus [HIV] Disease"),
       NomerICD(nomerICD: "B25 - B34"),
       NamaICD(namaICD: "Other Viral Diseases"),
       NomerICD(nomerICD: "B35 - B49"),
@@ -98,13 +98,13 @@ class _Dashboard2State extends State<Dashboard2> {
       NomerICD(nomerICD: "B65 - B83"),
       NamaICD(namaICD: "Helminthiases"),
       NomerICD(nomerICD: "B85 - B89"),
-      NamaICD(namaICD: "Pediculosis, Acariasis and Other Infestations"),
+      NamaICD(namaICD: "Pediculosis, Acariasis \nand Other Infestations"),
       NomerICD(nomerICD: "B90 - B94"),
-      NamaICD(namaICD: "Sequalae of Infectious and Parasitic Diseases"),
+      NamaICD(namaICD: "Sequalae of Infectious \nand Parasitic Diseases"),
       NomerICD(nomerICD: "B95 - B98"),
-      NamaICD(namaICD: "Bacterical, Viral and Other Infectious Agents"),
+      NamaICD(namaICD: "Bacterical, Viral \nand Other \nInfectious Agents"),
       NomerICD(nomerICD: "B99 - B99"),
-      NamaICD(namaICD: "Other Infectious Diseases"),
+      NamaICD(namaICD: "Other Infectious \nDiseases"),
     ];
 
     return Container(
@@ -188,13 +188,14 @@ class NamaICD extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(left: 4),
+      padding: const EdgeInsets.only(left: 4, right: 2),
       color: kColorBlue6,
       child: Align(
         alignment: Alignment.centerLeft,
-        child: Text(namaICD,
-          overflow: TextOverflow.fade,
-          style: const TextStyle(fontSize: 13)),
+        child: FittedBox(
+          fit: BoxFit.cover,
+          child: Text(namaICD, /*style: const TextStyle(fontSize: 13)*/),
+        ),
       )
     );
   }
