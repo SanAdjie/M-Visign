@@ -6,7 +6,7 @@ class DetailInformasiKamar extends StatelessWidget {
   final String form;
   final String formValue;
 
-  const DetailInformasiKamar({required this.form, required this.formValue});
+  DetailInformasiKamar({required this.form, required this.formValue});
 
   @override
   Widget build(BuildContext context) {

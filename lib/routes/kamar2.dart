@@ -22,9 +22,9 @@ class _Kamar2State extends State<Kamar2> {
   //Property / field
   String nama = "-";
   String gender = "-";
-  String umur = "-";
+  String umur = "0";
   String icd = "-";
-  String nomedis = "-";
+  String nomedis = "0";
 
   bool kondisi1A = true;
   bool kondisi1B = false;
@@ -57,15 +57,18 @@ class _Kamar2State extends State<Kamar2> {
 
   updateUIJSON(String nokamar, String subnomerkamar) async{
     var dataPasien = await data.getData();
-    nama = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["nama"];
-    gender = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["gender"];
-    umur = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["umur"].toString();
-    icd = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["ICD"];
-    nomedis = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["medis"].toString();
+    setState((){
+      nama = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["nama"];
+      gender = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["gender"];
+      umur = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["umur"].toString();
+      icd = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["ICD"];
+      nomedis = dataPasien[widget.namaKamar][nokamar][subnomerkamar]["medis"].toString();
+    });
   }
 
   @override
-  void initState() {
+  void initState(){
+    updateUIJSON("kamar1", "1A");
     super.initState();
   }
 
@@ -82,7 +85,7 @@ class _Kamar2State extends State<Kamar2> {
 
     List <Widget> kamar = [
       //TODO : [State Management] Seharusnya pake State Management (Provider, GetX, dsb).
-      //TODO : [Design Patter] Sementara masih lifting up State ygy. Tambah MVC Design Pattern lebih bagus~
+      //TODO : [Design Pattern] Sementara masih lifting up State ygy. Tambah MVC Design Pattern lebih bagus~
       //TODO : [WebHook][HTTP] Ambil data JSON dengan HTTP Request tidak Stream / Snapshot ygy~
       DetailKamar(nomerKamar: "1", subNomerKamar1: "1A", subNomerKamar2: "1B", aktivasiA: kondisi1A, aktivasiB: kondisi1B,
        onTap1: () async{
@@ -212,8 +215,7 @@ class _Kamar2State extends State<Kamar2> {
                                           labelStatus: "Kadar Oksigen",
                                           valueStatus: "96",
                                           imgStatus: "oksigen",
-                                          kondisiStatus: "normal"),
-                                      ),
+                                          kondisiStatus: "normal")),
                                       TableCell(
                                         verticalAlignment: TableCellVerticalAlignment.middle,
                                         child: StatusKamar(

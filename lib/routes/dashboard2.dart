@@ -24,40 +24,44 @@ class _Dashboard2State extends State<Dashboard2> {
     index == 0? Navigator.pop(context) : null;
   }
 
+  void pushKamar(String kamar){
+    Navigator.push(context, MaterialPageRoute(builder: (context)=> Kamar2(kamar)));
+  }
+
   @override
   Widget build(BuildContext context) {
 
     List <Ruang> ruang2 = [
       //TODO: Bisa diganti dengan Named Routes ygy
       Ruang(namaRuang: "Ruang Mawar", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Mawar")));
+        pushKamar("Mawar");
       }),
       Ruang(namaRuang: "Ruang Kemuning", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Kemuning")));
+        pushKamar("Kemuning");
       }),
       Ruang(namaRuang: "Ruang Aster ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Aster")));
+        pushKamar("Aster");
       }),
       Ruang(namaRuang: "Ruang Kamboja ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Kamboja")));
+        pushKamar("Kamboja");
       }),
       Ruang(namaRuang: "Ruang Anggrek ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Anggrek")));
+        pushKamar("Anggrek");
       }),
       Ruang(namaRuang: "Ruang Melati ", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Melati")));
+        pushKamar("Melati");
       }),
       Ruang(namaRuang: "Ruang Dahlia", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Dahlia")));
+        pushKamar("Dahlia");
       }),
       Ruang(namaRuang: "Ruang Bougenville", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Bougenville")));
+        pushKamar("Bougenville");
       }),
       Ruang(namaRuang: "Ruang Raflesia", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Raflesia")));
+        pushKamar("Raflesia");
       }),
       Ruang(namaRuang: "Ruang Tulip", onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> const Kamar2("Tulip")));
+        pushKamar("Tulip");
       }),
     ];
 

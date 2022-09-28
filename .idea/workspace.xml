@@ -12,24 +12,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="04/9 : Update State Detail Kamar">
-      <change afterPath="$PROJECT_DIR$/assets/images/bg_mvisignbaru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/controller/data_json.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/model_view/reusable_detailstatuskamar.dart" afterDir="false" />
+    <list default="true" id="96499a14-f956-47f4-9e19-ffa7ae028515" name="Changes" comment="04/9 : Update Database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/bg_mvisgn.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg_mvisignlama.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/model_view/reusable_detailinformasikamar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model_view/reusable_detailinformasikamar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/routes/dashboard2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/dashboard2.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/routes/kamar2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/kamar2.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routes/masuk2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/masuk2.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routes/profile2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/profile2.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wehedev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wehedev.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,8 +48,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lib/main.dart" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lib/routes/profile2.dart" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2D9sfYufvpa9HR52h4yx8PyFuP8" />
   <component name="ProjectView">
@@ -68,19 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookair/Documents/SourceCode/StudioProjects/M-Visign-Aplikasi&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
@@ -114,6 +112,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660122740348</updated>
+      <workItem from="1662803057904" duration="1333000" />
+      <workItem from="1662804760755" duration="3974000" />
+      <workItem from="1662854896893" duration="2963000" />
+      <workItem from="1662905833458" duration="249000" />
+      <workItem from="1662939127500" duration="3125000" />
+      <workItem from="1662972812784" duration="2571000" />
+      <workItem from="1663118646028" duration="3023000" />
+      <workItem from="1663206652843" duration="3777000" />
+      <workItem from="1663719043288" duration="2438000" />
+      <workItem from="1663761146119" duration="1082000" />
+      <workItem from="1664141026175" duration="756000" />
+      <workItem from="1664334341592" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="Update UI (Rasyid)">
       <created>1660227817798</created>
@@ -164,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662302402528</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="04/9 : Update Database">
+      <created>1662614008515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662614008515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -172,6 +189,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -183,7 +203,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update UI (Rasyid)" />
@@ -194,6 +213,11 @@
     <MESSAGE value="02/9 : Update State Kamar" />
     <MESSAGE value="02/9 : Update State Detail Kamar" />
     <MESSAGE value="04/9 : Update State Detail Kamar" />
-    <option name="LAST_COMMIT_MESSAGE" value="04/9 : Update State Detail Kamar" />
+    <MESSAGE value="04/9 : Update Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/9 : Update Database" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
